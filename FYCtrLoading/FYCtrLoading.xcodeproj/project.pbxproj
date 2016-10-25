@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F7F4D711DBDA97400F0461E /* FYHubLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7F4D701DBDA97400F0461E /* FYHubLoadingView.m */; };
+		9FA18EF01DBDF956009EA05A /* UIViewController+FYLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA18EEF1DBDF956009EA05A /* UIViewController+FYLoading.m */; };
+		9FA712771DBD8F0D00F0FAB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA712761DBD8F0D00F0FAB2 /* main.m */; };
+		9FA7127A1DBD8F0D00F0FAB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA712791DBD8F0D00F0FAB2 /* AppDelegate.m */; };
+		9FA7127D1DBD8F0D00F0FAB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7127C1DBD8F0D00F0FAB2 /* ViewController.m */; };
+		9FA712801DBD8F0D00F0FAB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7127E1DBD8F0D00F0FAB2 /* Main.storyboard */; };
+		9FA712821DBD8F0D00F0FAB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA712811DBD8F0D00F0FAB2 /* Assets.xcassets */; };
+		9FA712851DBD8F0D00F0FAB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA712831DBD8F0D00F0FAB2 /* LaunchScreen.storyboard */; };
+		9FA712931DBD8FA900F0FAB2 /* CCInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7128E1DBD8FA900F0FAB2 /* CCInfoView.m */; };
+		9FA712941DBD8FA900F0FAB2 /* CCLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA712901DBD8FA900F0FAB2 /* CCLoadingView.m */; };
+		9FA712951DBD8FA900F0FAB2 /* UIViewController+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA712921DBD8FA900F0FAB2 /* UIViewController+Loading.m */; };
+		9FA712991DBD900200F0FAB2 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA712981DBD900200F0FAB2 /* MBProgressHUD.m */; };
+		9FA7129D1DBD917800F0FAB2 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7129C1DBD917800F0FAB2 /* UIColor+Hex.m */; };
+		9FA712A01DBD91C900F0FAB2 /* FYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7129F1DBD91C900F0FAB2 /* FYTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F7F4D6F1DBDA97400F0461E /* FYHubLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYHubLoadingView.h; sourceTree = "<group>"; };
+		9F7F4D701DBDA97400F0461E /* FYHubLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYHubLoadingView.m; sourceTree = "<group>"; };
+		9FA18EEE1DBDF956009EA05A /* UIViewController+FYLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FYLoading.h"; sourceTree = "<group>"; };
+		9FA18EEF1DBDF956009EA05A /* UIViewController+FYLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FYLoading.m"; sourceTree = "<group>"; };
+		9FA712721DBD8F0D00F0FAB2 /* FYCtrLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYCtrLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA712761DBD8F0D00F0FAB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FA712781DBD8F0D00F0FAB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FA712791DBD8F0D00F0FAB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FA7127B1DBD8F0D00F0FAB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9FA7127C1DBD8F0D00F0FAB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9FA7127F1DBD8F0D00F0FAB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FA712811DBD8F0D00F0FAB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FA712841DBD8F0D00F0FAB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FA712861DBD8F0D00F0FAB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FA7128D1DBD8FA900F0FAB2 /* CCInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCInfoView.h; sourceTree = "<group>"; };
+		9FA7128E1DBD8FA900F0FAB2 /* CCInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCInfoView.m; sourceTree = "<group>"; };
+		9FA7128F1DBD8FA900F0FAB2 /* CCLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLoadingView.h; sourceTree = "<group>"; };
+		9FA712901DBD8FA900F0FAB2 /* CCLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLoadingView.m; sourceTree = "<group>"; };
+		9FA712911DBD8FA900F0FAB2 /* UIViewController+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Loading.h"; sourceTree = "<group>"; };
+		9FA712921DBD8FA900F0FAB2 /* UIViewController+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Loading.m"; sourceTree = "<group>"; };
+		9FA712971DBD900200F0FAB2 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9FA712981DBD900200F0FAB2 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		9FA7129B1DBD917800F0FAB2 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		9FA7129C1DBD917800F0FAB2 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		9FA7129E1DBD91C900F0FAB2 /* FYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTableViewController.h; sourceTree = "<group>"; };
+		9FA7129F1DBD91C900F0FAB2 /* FYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FA7126F1DBD8F0D00F0FAB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FA18EED1DBDF956009EA05A /* fresh */ = {
+			isa = PBXGroup;
+			children = (
+				9FA18EEE1DBDF956009EA05A /* UIViewController+FYLoading.h */,
+				9FA18EEF1DBDF956009EA05A /* UIViewController+FYLoading.m */,
+			);
+			path = fresh;
+			sourceTree = "<group>";
+		};
+		9FA712691DBD8F0D00F0FAB2 = {
+			isa = PBXGroup;
+			children = (
+				9FA712741DBD8F0D00F0FAB2 /* FYCtrLoading */,
+				9FA712731DBD8F0D00F0FAB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FA712731DBD8F0D00F0FAB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FA712721DBD8F0D00F0FAB2 /* FYCtrLoading.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FA712741DBD8F0D00F0FAB2 /* FYCtrLoading */ = {
+			isa = PBXGroup;
+			children = (
+				9FA712961DBD900200F0FAB2 /* MBProgressHUD */,
+				9FA7129A1DBD917800F0FAB2 /* UIColor+ */,
+				9FA7128C1DBD8FA900F0FAB2 /* UIViewController+ */,
+				9FA712781DBD8F0D00F0FAB2 /* AppDelegate.h */,
+				9FA712791DBD8F0D00F0FAB2 /* AppDelegate.m */,
+				9FA7129E1DBD91C900F0FAB2 /* FYTableViewController.h */,
+				9FA7129F1DBD91C900F0FAB2 /* FYTableViewController.m */,
+				9FA7127B1DBD8F0D00F0FAB2 /* ViewController.h */,
+				9FA7127C1DBD8F0D00F0FAB2 /* ViewController.m */,
+				9FA7127E1DBD8F0D00F0FAB2 /* Main.storyboard */,
+				9FA712811DBD8F0D00F0FAB2 /* Assets.xcassets */,
+				9FA712831DBD8F0D00F0FAB2 /* LaunchScreen.storyboard */,
+				9FA712861DBD8F0D00F0FAB2 /* Info.plist */,
+				9FA712751DBD8F0D00F0FAB2 /* Supporting Files */,
+			);
+			path = FYCtrLoading;
+			sourceTree = "<group>";
+		};
+		9FA712751DBD8F0D00F0FAB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FA712761DBD8F0D00F0FAB2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FA7128C1DBD8FA900F0FAB2 /* UIViewController+ */ = {
+			isa = PBXGroup;
+			children = (
+				9FA7128D1DBD8FA900F0FAB2 /* CCInfoView.h */,
+				9FA7128E1DBD8FA900F0FAB2 /* CCInfoView.m */,
+				9FA7128F1DBD8FA900F0FAB2 /* CCLoadingView.h */,
+				9FA712901DBD8FA900F0FAB2 /* CCLoadingView.m */,
+				9FA712911DBD8FA900F0FAB2 /* UIViewController+Loading.h */,
+				9FA712921DBD8FA900F0FAB2 /* UIViewController+Loading.m */,
+				9F7F4D6F1DBDA97400F0461E /* FYHubLoadingView.h */,
+				9F7F4D701DBDA97400F0461E /* FYHubLoadingView.m */,
+				9FA18EED1DBDF956009EA05A /* fresh */,
+			);
+			path = "UIViewController+";
+			sourceTree = "<group>";
+		};
+		9FA712961DBD900200F0FAB2 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9FA712971DBD900200F0FAB2 /* MBProgressHUD.h */,
+				9FA712981DBD900200F0FAB2 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		9FA7129A1DBD917800F0FAB2 /* UIColor+ */ = {
+			isa = PBXGroup;
+			children = (
+				9FA7129B1DBD917800F0FAB2 /* UIColor+Hex.h */,
+				9FA7129C1DBD917800F0FAB2 /* UIColor+Hex.m */,
+			);
+			path = "UIColor+";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FA712711DBD8F0D00F0FAB2 /* FYCtrLoading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FA712891DBD8F0D00F0FAB2 /* Build configuration list for PBXNativeTarget "FYCtrLoading" */;
+			buildPhases = (
+				9FA7126E1DBD8F0D00F0FAB2 /* Sources */,
+				9FA7126F1DBD8F0D00F0FAB2 /* Frameworks */,
+				9FA712701DBD8F0D00F0FAB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYCtrLoading;
+			productName = FYCtrLoading;
+			productReference = 9FA712721DBD8F0D00F0FAB2 /* FYCtrLoading.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FA7126A1DBD8F0D00F0FAB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = yongrun;
+				TargetAttributes = {
+					9FA712711DBD8F0D00F0FAB2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9FA7126D1DBD8F0D00F0FAB2 /* Build configuration list for PBXProject "FYCtrLoading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FA712691DBD8F0D00F0FAB2;
+			productRefGroup = 9FA712731DBD8F0D00F0FAB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FA712711DBD8F0D00F0FAB2 /* FYCtrLoading */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FA712701DBD8F0D00F0FAB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA712851DBD8F0D00F0FAB2 /* LaunchScreen.storyboard in Resources */,
+				9FA712821DBD8F0D00F0FAB2 /* Assets.xcassets in Resources */,
+				9FA712801DBD8F0D00F0FAB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FA7126E1DBD8F0D00F0FAB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7F4D711DBDA97400F0461E /* FYHubLoadingView.m in Sources */,
+				9FA712931DBD8FA900F0FAB2 /* CCInfoView.m in Sources */,
+				9FA7127D1DBD8F0D00F0FAB2 /* ViewController.m in Sources */,
+				9FA7127A1DBD8F0D00F0FAB2 /* AppDelegate.m in Sources */,
+				9FA712941DBD8FA900F0FAB2 /* CCLoadingView.m in Sources */,
+				9FA712771DBD8F0D00F0FAB2 /* main.m in Sources */,
+				9FA7129D1DBD917800F0FAB2 /* UIColor+Hex.m in Sources */,
+				9FA18EF01DBDF956009EA05A /* UIViewController+FYLoading.m in Sources */,
+				9FA712951DBD8FA900F0FAB2 /* UIViewController+Loading.m in Sources */,
+				9FA712A01DBD91C900F0FAB2 /* FYTableViewController.m in Sources */,
+				9FA712991DBD900200F0FAB2 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FA7127E1DBD8F0D00F0FAB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FA7127F1DBD8F0D00F0FAB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FA712831DBD8F0D00F0FAB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FA712841DBD8F0D00F0FAB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FA712871DBD8F0D00F0FAB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FA712881DBD8F0D00F0FAB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FA7128A1DBD8F0D00F0FAB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FYCtrLoading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yongrun.FYCtrLoading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FA7128B1DBD8F0D00F0FAB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FYCtrLoading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yongrun.FYCtrLoading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FA7126D1DBD8F0D00F0FAB2 /* Build configuration list for PBXProject "FYCtrLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA712871DBD8F0D00F0FAB2 /* Debug */,
+				9FA712881DBD8F0D00F0FAB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FA712891DBD8F0D00F0FAB2 /* Build configuration list for PBXNativeTarget "FYCtrLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA7128A1DBD8F0D00F0FAB2 /* Debug */,
+				9FA7128B1DBD8F0D00F0FAB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FA7126A1DBD8F0D00F0FAB2 /* Project object */;
+}
